@@ -121,7 +121,7 @@ body {
   height: 80vh;
   width: 100%;
 
-  background-image: url("PanovStudents/вход.png");
+  background-image: url("enter.png");
   background-size: cover;
   background-position: center;
 
@@ -750,6 +750,7 @@ a {
   align-items: center;
   gap: 20px;
 }
+
 
 
 
