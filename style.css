@@ -73,6 +73,7 @@ body {
   min-width: 40px;
   max-width: 120px;
   min-height: 30px;
+  height: 30px
   font-size: clamp(12px, 1.5vw, 16px);
   white-space: nowrap;
   text-align: center;
@@ -729,5 +730,6 @@ a {
   align-items: center;
   gap: 20px;
 }
+
 
 
