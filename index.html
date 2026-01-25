@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PanovStudents</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="style.css
@@ -29,7 +29,9 @@
   </head>
   <div class="navbar">
     <div class="Btns">
-      <button id="main" class="btn">Главная</button>
+      <button style="border: 1px solid black" id="main" class="btn">
+        Главная
+      </button>
       <button id="AboutUs" class="btn">О нас</button>
 
       <button id="Events" class="btn">События</button>
@@ -38,94 +40,125 @@
   </div>
 
   <body>
-    <div class="main">
-      <main>
-        <section class="bgmain">
-          <div class="bgoverlay"></div>
-          <div class="MainText">
-            <span>
-              Добро Пожаловать!
-              <p class="MainP">Ученический Совет Т.Л. "Олимпий Панов"</p>
-            </span>
-          </div>
-        </section>
+    <section class="bgMain">
+      <div class="bgOverlay"></div>
+      <div class="MainText">
+        <span>Ученический Совет Лицея <br />"Олимпий Панов" </span>
+      </div>
+    </section>
 
-        <section class="SchoolBlock">
-          <div class="photoContainer">
-            <img
-              class="photoSchool"
-              src="PanovPhoto/557786085_2349010075531989_7570941818124275464_n.jpg"
-              alt="School 1"
-            />
-            <img
-              class="photoSchool"
-              src="PanovPhoto/500890875_122204339132123352_4562918630732231397_n.jpg"
-              alt="School 2"
-            />
-            <img
-              class="photoSchool"
-              src="PanovPhoto/550463397_2338056796627317_6781678836482644020_n.jpg"
-              alt="School 3"
-            />
-          </div>
+    <section class="SchoolBlock">
+      <div class="PhotoMainContainer">
+        <div class="photoContainer">
+          <img
+            class="schoolMomentsPhoto"
+            src="PanovPhoto/557786085_2349010075531989_7570941818124275464_n.jpg"
+            alt="School 1"
+          />
+          <img
+            class="schoolMomentsPhoto"
+            src="./PanovPhoto/readingGirl.jpg"
+            alt="School 2"
+          />
+        </div>
+        <div class="photoContainer2">
+          <img
+            class="schoolMomentsPhoto"
+            src="PanovPhoto/551101333_3356847164473745_1840181295339270310_n.jpg"
+            alt="School 4"
+          />
+          <img
+            class="schoolMomentsPhoto"
+            src="./PanovPhoto/teachingGirl.jpg"
+            alt="School 4"
+          />
+        </div>
+      </div>
 
-          <div class="photoContainer">
-            <img
-              class="photoSchool"
-              src="PanovPhoto/551101333_3356847164473745_1840181295339270310_n.jpg"
-              alt="School 4"
-            />
-            <img
-              class="photoSchool"
-              src="PanovPhoto/556950549_2156238358196163_7747718014530704399_n.jpg"
-              alt="School 5"
-            />
-            <img
-              class="photoSchool"
-              src="PanovPhoto/photo!.jpg"
-              alt="School 6"
-            />
-          </div>
+      <p class="counsilText">
+        Ученический Совет стремится обеспечивать наших учеников всеми
+        необходимыми возможностями для развития в самых разных направлениях. Мы
+        постоянно работаем над тем, чтобы школьная жизнь была интересной,
+        полезной и вдохновляющей для каждого.
+      </p>
+    </section>
 
-          <p class="TextSchool">
-            Ученический Совет стремится обеспечивать наших учеников всеми
-            необходимыми возможностями для развития в самых разных направлениях.
-            Мы постоянно работаем над тем, чтобы школьная жизнь была интересной,
-            полезной и вдохновляющей для каждого.
-          </p>
-        </section>
+    <div class="SportBlock">
+      <div class="SportPhotoContainer">
+        <div class="photoFirstContainer">
+          <img id="MainSportPhoto" src="./PanovPhoto/awards.jpg" alt="" />
+        </div>
 
-        <div class="SportBlock">
-          <div class="SportPhoto">
-            <div class="SportOverlay"></div>
-          </div>
+        <div class="photoSecondContainer">
+          <img class="sportPhoto" src="./PanovPhoto/Coaches.jpg" alt="" />
+          <img class="sportPhoto" src="./PanovPhoto/cupV.jpg" alt="" />
+        </div>
+      </div>
 
-          <p class="TextSchool">
-            Спорт помогает ученикам развиваться физически и эмоционально,
-            укрепляет характер и дисциплину. Мы поддерживаем разные виды
-            активности, чтобы каждый мог найти своё направление и раскрыть свой
-            потенциал.
-          </p>
+      <p class="sportText">
+        Спорт помогает ученикам развиваться физически и эмоционально, укрепляет
+        характер и дисциплину. Мы поддерживаем разные виды активности, чтобы
+        каждый мог найти своё направление и раскрыть свой потенциал.
+      </p>
+    </div>
+
+    <div class="bottomBlock">
+      <p class="bottomText">
+        Следите за всеми нашими событиями и активностями в других разделах
+        сайта, чтобы ничего не пропустить!
+      </p>
+    </div>
+    <div class="activities">
+      <div class="activityContainer">
+        <div class="activityCard">
+          <strong>События</strong>
+          <p class="activityText">Организация праздников и мероприятий</p>
+          <img
+            class="ActivityIcon"
+            src="./PanovPhoto/calendar-star.svg"
+            alt=""
+          />
+          <button id="ActivityEventsBtn" class="btn">Перейти</button>
+        </div>
+        <div class="activityCard">
+          <strong>Учёба</strong>
+          <p class="activityText">Помощь в учебных проектах</p>
 
           <img
-            class="FinishPhoto"
-            src="PanovPhoto/558915516_2162457980907534_8385671693254163190_n.jpg"
+            class="ActivityIcon"
+            src="./PanovPhoto/graduation-cap (1).svg"
+            alt=""
           />
-
-          <p class="FinishPageText">
-            Следите за всеми нашими событиями и активностями в других разделах
-            сайта, чтобы ничего не пропустить!
-          </p>
+          <button id="ActivityEduBtn" class="btn">Перейти</button>
+        </div>
+      </div>
+      <div class="activityContainer">
+        <div class="activityCard">
+          <strong>Спорт</strong>
+          <p class="activityText">Соревнования и спортивные инициативы</p>
+          <img
+            class="ActivityIcon"
+            src="./PanovPhoto/muscle.svg"
+            alt=""
+          /><button id="ActivitySportBtn" class="btn">Перейти</button>
         </div>
 
-        <div class="BottomPage">
-          <span class="BottomText">L.T. Olimpii Panov</span>
+        <div class="activityCard">
+          <strong>Участники</strong>
+          <p class="activityText">Проекты совета и волонтёрство</p>
+          <img class="ActivityIcon" src="./PanovPhoto/users-alt.svg" alt="" />
+          <button id="ActivityCharityBtn" class="btn">Перейти</button>
         </div>
-      </main>
+      </div>
+    </div>
+    <div class="footer">
+      <img id="footerImg" src="./PanovPhoto/globe.svg" alt="" />
+      <span>Наша Почта: <br />olimpypanov@gmail.com</span>
+      <span
+        >Наш Адрес:<br />
+        ул. Котовского, 27 </span
+      ><span>©L.T. "Olimpy Panov" 2026 </span>
     </div>
     <script src="script.js"></script>
   </body>
 </html>
-
-
-
