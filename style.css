@@ -121,7 +121,7 @@ body {
   height: 80vh;
   width: 100%;
 
-  background-image: url("PanovPhoto/Снимок экрана 2025-11-16 212359.png");
+  background-image: url("./Снимок экрана 2025-11-16 212359.png");
   background-size: cover;
   background-position: center;
 
@@ -730,6 +730,7 @@ a {
   align-items: center;
   gap: 20px;
 }
+
 
 
 
