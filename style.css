@@ -613,6 +613,7 @@ a {
 }
 @media (max-width: 768px) {
   .footer {
+    position: flex;
     flex-direction: column;
     height: 400px;
     bottom: 0;
@@ -730,6 +731,7 @@ a {
   align-items: center;
   gap: 20px;
 }
+
 
 
 
