@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="style.css
@@ -34,56 +34,50 @@
         <button id="AboutUs" class="btn">О нас</button>
 
         <button id="Events" class="btn">События</button>
-        <button id="Contacts" class="btn">Контакты</button>
+        <button style="border: 1px solid black" id="Contacts" class="btn">
+          Контакты
+        </button>
       </div>
     </div>
-    <main>
-      <div class="ContactsText">
-        <span>
-          <strong
-            >Мы всегда рады вашим вопросам, предложениям и идеям! Следите за
-            нашей жизнью, проектами и инициативами в социальных сетях и
-            присоединяйтесь к школьному сообществу.</strong
-          ></span
-        >
-        <p><strong>Наши официальные страницы:</strong></p>
-        <p>
-          <strong>
-            📺 YouTube:<a
-              href="https://youtube.com/@olimpypanov?si=oilEDsu9Q4zSMi7F"
-              >Смотреть видео
-            </a>
-            — освещение мероприятий, творческих проектов и школьных инициатив.
-          </strong>
-        </p>
-        <p>
-          <strong>
-            📘 Facebook:<a
-              href="https://www.facebook.com/share/g/1AvpBYod9P/?mibextid=wwXIfr"
-              >Присоединиться к группе
-            </a>
-            — новости, фото и актуальная информация о жизни лицея.
-          </strong>
-        </p>
-        <p>
-          <strong>
-            📸 Instagram:
-            <a
-              href="https://www.instagram.com/olimpypanov?igsh=bGN1bmhjb3NkcjRy&utm_source=qr"
-              >Подписаться
-            </a>
-            — яркие моменты, фото и креативные проекты учеников.
-          </strong>
-        </p>
-        <p>
-          <strong>
-            Вы можете писать нам через соцсети или оставлять сообщения на сайте
-            — мы всегда открыты к диалогу и сотрудничеству!
-          </strong>
-        </p>
+
+    <div class="Links">
+      <div class="ContactCard">
+        <img
+          id="FBBtn"
+          class="contactImg"
+          src="./PanovPhoto/facebook.svg"
+          alt=""
+        />
+        <span class="ContactText">Наше Сообщество</span>
       </div>
-    </main>
+      <div class="ContactCard">
+        <img
+          id="YtBtn"
+          class="contactImg"
+          src="./PanovPhoto/youtube.svg"
+          alt=""
+        />
+        <span class="ContactText">Наши Видео</span>
+      </div>
+      <div id="InstaBtn" class="ContactCard">
+        <img
+          class="contactImg"
+          src="./PanovPhoto/instagram-circle.svg"
+          alt=""
+        /><span class="ContactText">Наши Активности</span>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img id="footerImg" src="./PanovPhoto/globe.svg" alt="" />
+      <span>Наша Почта: <br />olimpypanov@gmail.com</span>
+      <span
+        >Наш Адрес:<br />
+        ул. Котовского, 27 </span
+      ><span>©L.T. "Olimpy Panov" 2026 </span>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
+
 
