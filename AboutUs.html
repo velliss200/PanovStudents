@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AboutUs</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="style.css
@@ -31,7 +31,9 @@
     <div class="navbar">
       <div class="Btns">
         <button id="main" class="btn">Главная</button>
-        <button id="AboutUs" class="btn">О нас</button>
+        <button style="border: 1px solid black" id="AboutUs" class="btn">
+          О нас
+        </button>
 
         <button id="Events" class="btn">События</button>
         <button id="Contacts" class="btn">Контакты</button>
@@ -40,61 +42,75 @@
     <main>
       <div class="AboutUsPhotoContainer">
         <div class="PhotoAUInfo">
-          <img class="AboutUsPhoto" src="PanovPhoto/IMG_0869.jpg" alt="" />
-          <div class="AUText">
-            <span
-              >Василий Минчев
-              <p class="status">Президент</p>
+          <img id="AboutUsPhoto" src="./PanovPhoto/president.jpg" alt="" />
+          <div id="AUText">
+            <span>
+              <strong>Василий Минчев — Президент Ученического совета</strong>
+
+              <br />
+              <p id="PersonInfo">
+                Руководит Ученическим советом, направляет работу команды,
+                помогает реализовывать идеи и представляет интересы учащихся
+                перед администрацией.
+              </p>
             </span>
           </div>
         </div>
         <div class="PhotoAUInfo">
-          <img class="AboutUsPhoto" src="PanovPhoto/IMG_0849.jpg" alt="" />
-          <div class="AUText">
-            <span
-              >Екатерина Кирова
-              <p class="status">Вице-Президент</p>
+          <img
+            id="AboutUsPhoto2"
+            src="./PanovPhoto/vice-president.png"
+            alt=""
+          />
+          <div id="AUText2">
+            <span>
+              <strong
+                >Екатерина Кирова — Вице-Президент Ученического совета</strong
+              ><br />
+
+              <p id="PersonInfo2">
+                Координирует деятельность комитетов, поддерживает проекты и
+                следит за тем, чтобы каждая инициатива была доведена до
+                результата.
+              </p>
             </span>
           </div>
         </div>
       </div>
       <div class="TextDescription">
-        <p class="TextDescriptionElementStatus">
-          <strong>Василий Минчев — Президент Ученического совета</strong><br />
-          Руководит Ученическим советом, направляет работу команды, помогает
-          реализовывать идеи и представляет интересы учащихся перед
-          администрацией.
-        </p>
-
-        <p class="TextDescriptionElementStatus">
-          <strong>Екатерина Кирова — Вице-Президент Ученического совета</strong
-          ><br />
-          Координирует деятельность комитетов, поддерживает проекты и следит за
-          тем, чтобы каждая инициатива была доведена до результата.
-        </p>
-
         <p class="TextDescriptionElement">
-          <strong>📌 Чем занимается наш совет</strong><br />
+          <strong class="topic"> Чем занимается наш совет?</strong><br />
           Команда активных и инициативных ребят, которые делают жизнь лицея ярче
           и насыщеннее.<br /><br />
 
-          <strong>🎉 Организация праздников:</strong> Школьные мероприятия,
-          тематические дни и творческие вечера, объединяющие учеников.<br /><br />
+          <strong class="topic"> Организация праздников:</strong> <br />Школьные
+          мероприятия, тематические дни и творческие вечера, объединяющие
+          учеников.<br /><br />
 
-          <strong>🤝 Реализация акций:</strong> Благотворительные, экологические
-          и волонтёрские инициативы для участия учеников в жизни школы и
-          общества.<br /><br />
+          <strong class="topic"> Реализация акций:</strong>
+          <br />Благотворительные, экологические и волонтёрские инициативы для
+          участия учеников в жизни школы и общества.<br /><br />
 
-          <strong>🏆 Проведение конкурсов:</strong> Интеллектуальные, творческие
-          и спортивные конкурсы для раскрытия талантов и дружеского
-          соперничества.<br /><br />
+          <strong class="topic"> Проведение конкурсов:</strong><br />
+          Интеллектуальные, творческие и спортивные конкурсы для раскрытия
+          талантов и дружеского соперничества.<br /><br />
 
-          <strong>📰 Выпуск школьной газеты:</strong> Статьи, интервью и
-          освещение жизни лицея глазами учеников.
+          <strong class="topic"> Выпуск школьной газеты:</strong><br />
+          Статьи, интервью и освещение жизни лицея глазами учеников.
         </p>
       </div>
     </main>
+    <div class="footerAboutUs">
+      <img id="footerImg" src="./PanovPhoto/globe.svg" alt="" />
+      <span>Наша Почта: <br />olimpypanov@gmail.com</span>
+      <span
+        >Наш Адрес:<br />
+        ул. Котовского, 27 </span
+      ><span>©L.T. "Olimpy Panov" 2026 </span>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
+
+
 
