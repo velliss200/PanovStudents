@@ -757,7 +757,11 @@ height: 30px
 }
 
 
-№ActivityCharityBtn{height: 30px}
+#ActivityCharityBtn
+{
+  height: 30px
+}
+
 
 
 
