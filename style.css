@@ -596,6 +596,11 @@ a {
     flex-direction: column;
   }
 }
+#ActivityEventsBtn{
+height: 30px
+
+  
+}
 .ActivityIcon {
   width: 80px;
 }
@@ -750,6 +755,7 @@ a {
   align-items: center;
   gap: 20px;
 }
+
 
 
 
