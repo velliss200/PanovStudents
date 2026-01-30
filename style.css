@@ -725,6 +725,8 @@ height: 30px
   padding: 10px;
   background-color: rgb(48, 47, 44);
   border-radius: 20px;
+  margin-left: 20px;
+   margin-right: 20px;
 }
 .EventText {
   padding: 10px;
@@ -792,6 +794,7 @@ height: 30px
   font-size: 20px;
   align-items: center;
 }
+
 
 
 
