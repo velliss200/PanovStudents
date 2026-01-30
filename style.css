@@ -717,7 +717,7 @@ height: 30px
 }
 .EventCard {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 400px;
@@ -794,6 +794,7 @@ height: 30px
   font-size: 20px;
   align-items: center;
 }
+
 
 
 
