@@ -27,143 +27,144 @@
       rel="stylesheet"
     />
   </head>
-  <div class="navbar">
-    <div class="Btns">
-      <button style="border: 1px solid black" id="main" class="btn">
-        Главная
-      </button>
-      <button id="AboutUs" class="btn">О нас</button>
-
-      <button id="Events" class="btn">События</button>
-      <button id="Contacts" class="btn">Контакты</button>
-    </div>
-  </div>
-
   <body>
-    <section class="bgMain">
-      <div class="bgOverlay"></div>
-      <div class="MainText">
-        <span>Ученический Совет Лицея <br />"Олимпий Панов" </span>
+    <div class="navbar">
+      <div class="Btns">
+        <button id="main" class="btn">Главная</button>
+        <button id="AboutUs" class="btn">О нас</button>
+
+        <button style="border: 1px solid black" id="Events" class="btn">
+          События
+        </button>
+        <button id="Contacts" class="btn">Контакты</button>
       </div>
-    </section>
-
-    <section class="SchoolBlock">
-      <div class="PhotoMainContainer">
-        <div class="photoContainer">
-          <img
-            class="schoolMomentsPhoto"
-            src="PanovPhoto/557786085_2349010075531989_7570941818124275464_n.jpg"
-            alt="School 1"
-          />
-          <img
-            class="schoolMomentsPhoto"
-            src="./PanovPhoto/readingGirl.jpg"
-            alt="School 2"
-          />
-        </div>
-        <div class="photoContainer2">
-          <img
-            class="schoolMomentsPhoto"
-            src="PanovPhoto/551101333_3356847164473745_1840181295339270310_n.jpg"
-            alt="School 4"
-          />
-          <img
-            class="schoolMomentsPhoto"
-            src="./PanovPhoto/teachingGirl.jpg"
-            alt="School 4"
-          />
-        </div>
-      </div>
-
-      <p class="counsilText">
-        Ученический Совет стремится обеспечивать наших учеников всеми
-        необходимыми возможностями для развития в самых разных направлениях. Мы
-        постоянно работаем над тем, чтобы школьная жизнь была интересной,
-        полезной и вдохновляющей для каждого.
-      </p>
-    </section>
-
-    <div class="SportBlock">
-      <div class="SportPhotoContainer">
-        <div class="photoFirstContainer">
-          <img id="MainSportPhoto" src="./PanovPhoto/awards.jpg" alt="" />
-        </div>
-
-        <div class="photoSecondContainer">
-          <img class="sportPhoto" src="./PanovPhoto/Coaches.jpg" alt="" />
-          <img class="sportPhoto" src="./PanovPhoto/cupV.jpg" alt="" />
-        </div>
-      </div>
-
-      <p class="sportText">
-        Спорт помогает ученикам развиваться физически и эмоционально, укрепляет
-        характер и дисциплину. Мы поддерживаем разные виды активности, чтобы
-        каждый мог найти своё направление и раскрыть свой потенциал.
-      </p>
     </div>
 
-    <div class="bottomBlock">
-      <p class="bottomText">
-        Следите за всеми нашими событиями и активностями в других разделах
-        сайта, чтобы ничего не пропустить!
-      </p>
-    </div>
-    <div class="activities">
-      <div class="activityContainer">
-        <div class="activityCard">
-          <strong>События</strong>
-          <p class="activityText">Организация праздников и мероприятий</p>
+    <main>
+      <div class="MainEventBG">
+        <img class="MainEventBGImg" src="./PanovPhoto/bulg.jpg" alt="" />
+        <span class="MainEventBGText">
+          <strong>Январь 2026</strong> 30 января в лицее имени Панова прошёл
+          семинар, посвящённый болгарскому языку и культуре. Учителя провели
+          открытые уроки, а также состоялись мастер-классы по ивоплетению и
+          приготовлению традиционных блюд. На мероприятии присутствовали
+          почётные гости, отметившие важность сохранения языка и культурных
+          традиций. Семинар прошёл в тёплой и познавательной атмосфере.
+        </span>
+      </div>
+
+      <div class="EventsContainer">
+        <div class="EventCard">
           <img
-            class="ActivityIcon"
-            src="./PanovPhoto/calendar-star.svg"
+            class="EventImg"
+            src="./events/571818413_2373996826366647_1651753152325121430_n.jpg"
             alt=""
           />
-          <button id="ActivityEventsBtn" class="btn">Перейти</button>
+          <span class="EventText">
+            <strong>Октябрь 2025</strong> День Бессарабских боглар.
+          </span>
         </div>
-        <div class="activityCard">
-          <strong>Учёба</strong>
-          <p class="activityText">Помощь в учебных проектах</p>
-
+        <div class="EventCard">
           <img
-            class="ActivityIcon"
-            src="./PanovPhoto/graduation-cap (1).svg"
+            class="EventImg"
+            src="./events/550835556_2338056966627300_8933754113062380392_n (1).jpg"
             alt=""
           />
-          <button id="ActivityEduBtn" class="btn">Перейти</button>
+          <span class="EventText"
+            ><strong>Сентябрь 2025</strong> Фестиваль Болгарской культуры в
+            Тараклии.</span
+          >
         </div>
-      </div>
-      <div class="activityContainer">
-        <div class="activityCard">
-          <strong>Спорт</strong>
-          <p class="activityText">Соревнования и спортивные инициативы</p>
+        <div class="EventCard">
           <img
-            class="ActivityIcon"
-            src="./PanovPhoto/muscle.svg"
+            class="EventImg"
+            src="./events/551101333_3356847164473745_1840181295339270310_n (2).jpg"
             alt=""
-          /><button id="ActivitySportBtn" class="btn">Перейти</button>
-        </div>
-
-        <div class="activityCard">
-          <strong>Участники</strong>
-          <p class="activityText">Проекты совета и волонтёрство</p>
-          <img class="ActivityIcon" src="./PanovPhoto/users-alt.svg" alt="" />
-          <button id="ActivityCharityBtn" class="btn">Перейти</button>
+          />
+          <span class="EventText"
+            ><strong>Сентябрь 2025</strong> Школьные активности.</span
+          >
         </div>
       </div>
-    </div>
-    <div class="footer">
-      <img id="footerImg" src="./PanovPhoto/globe.svg" alt="" />
-      <span>Наша Почта: <br />olimpypanov@gmail.com</span>
-      <span
-        >Наш Адрес:<br />
-        ул. Котовского, 27 </span
-      ><span>©L.T. "Olimpy Panov" 2026 </span>
-    </div>
+      <div class="EventsContainer">
+        <div class="EventCard">
+          <img
+            class="EventImg"
+            src="./events/556548967_24854631647466445_1987359048169890292_n.jpg"
+            alt=""
+          />
+          <span class="EventText"
+            ><strong>Сентябрь 2025</strong> Декада воспитания в духе
+            национальных ценностей.</span
+          >
+        </div>
+        <div class="EventCard">
+          <img
+            class="EventImg"
+            src="./events/557811566_2156238224862843_7629680630200661756_n.jpg"
+            alt=""
+          />
+          <span class="EventText"
+            ><strong>Октябрь 2025</strong> День самоуправления.</span
+          >
+        </div>
+        <div class="EventCard">
+          <img
+            class="EventImg"
+            src="./events/557989190_2156239191529413_4819087701336881966_n.jpg"
+            alt=""
+          />
+          <span class="EventText"
+            ><strong>Октябрь 2025</strong> День Учителя.</span
+          >
+        </div>
+      </div>
+      <div class="EventsContainer">
+        <div class="EventCard">
+          <img
+            class="EventImg"
+            src="./events/558915516_2162457980907534_8385671693254163190_n.jpg"
+            alt=""
+          />
+          <span class="EventText"
+            ><strong>Октябрь 2025</strong>Выборы Президента школы</span
+          >
+        </div>
+        <div class="EventCard">
+          <img
+            class="EventImg"
+            src="./events/583323332_2196793350807330_8857491939723234019_n (1) (1).jpg"
+            alt=""
+          />
+          <span class="EventText"
+            ><strong>Ноябрь 2025</strong> Победа в райнном чемпионате.</span
+          >
+        </div>
+        <div class="EventCard">
+          <img
+            class="EventImg"
+            src="./events/588885350_2206098706543461_1194974220743167577_n.jpg"
+            alt=""
+          />
+          <span class="EventText"
+            ><strong>Октябрь 2025</strong> Посвящение 10 классов в Лицеисты
+            .</span
+          >
+        </div>
+      </div>
+
+      <div class="footer">
+        <img id="footerImg" src="./PanovPhoto/globe.svg" alt="" />
+        <span>Наша Почта: <br />olimpypanov@gmail.com</span>
+        <span
+          >Наш Адрес:<br />
+          ул. Котовского, 27 </span
+        ><span>©L.T. "Olimpy Panov" 2026 </span>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
-
-     
 
 
 
